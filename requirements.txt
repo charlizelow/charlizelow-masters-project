@@ -1,0 +1,33 @@
+Listed below are the necessary packages/libraries for this project
+
+# Deep learning
+torch
+torchvision
+torchaudio
+
+# Vehicle detection
+ultralytics
+
+# Computer vision
+opencv-python
+
+# Data handling
+pandas
+numpy
+
+# Machine learning / prediction models
+scikit-learn
+pytorch-tcn
+
+# Visualisation
+matplotlib
+seaborn
+
+# Notebook environment
+jupyter
+notebook
+ipykernel
+
+# Utilities
+tqdm
+pyyaml
