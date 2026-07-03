@@ -49,6 +49,10 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+data/frames/**/*.jpg
+data/processed/*.jpg
+data/processed/*.png
+
 results/figures/*
 results/metrics/*
 !results/figures/.gitkeep
