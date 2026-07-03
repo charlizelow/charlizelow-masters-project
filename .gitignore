@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -19,16 +20,18 @@ wheels/
 .installed.cfg
 *.egg
 
+# Virtual environments
 venv/
 traffic_env/
 env/
 ENV/
 .venv/
 
+# Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-
+# Raw video / dataset formats
 *.mp4
 *.avi
 *.mov
@@ -38,57 +41,66 @@ METR-LA/
 *.h5
 *.hdf5
 
+# Model weights / checkpoints
 *.pt
 *.pth
 *.onnx
 *.weights
 *.ckpt
 
+# data/raw: full CityFlow download, never tracked
 data/raw/*
-data/processed/*
 !data/raw/.gitkeep
-!data/processed/.gitkeep
 
+# data/frames: extracted frame images, keep metadata CSV
 data/frames/**/*.jpg
-data/processed/*.jpg
-data/processed/*.png
+data/frames/**/*.jpeg
+data/frames/**/*.png
+!data/frames/.gitkeep
 
+# data/processed: keep final CSV datasets, ignore any image outputs
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/*.csv
+
+# results: ignore generated figures/metrics
 results/figures/*
 results/metrics/*
 !results/figures/.gitkeep
 !results/metrics/.gitkeep
 
+# weights: ignore checkpoint files
 weights/*
 !weights/.gitkeep
-notebooks/*
-!notebooks/.gitkeep
-dissertation/*
-!dissertation/.gitkeep
 
+# logs
 *.log
 logs/
 wandb/
 tensorboard/
 runs/
 
+# OS / editor junk
 .DS_Store
 Thumbs.db
 desktop.ini
-
 .vscode/
 .idea/
 *.swp
 *.swo
 
+# secrets 
 .env
 .env.local
 *.key
 
+# Office temp files 
 ~$*.docx
 ~$*.pptx
 *.tmp
 .~lock.*
 
+# archives / cache
 *.zip
 *.tar.gz
 .cache/
