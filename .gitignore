@@ -44,10 +44,18 @@ METR-LA/
 *.weights
 *.ckpt
 
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
 results/figures/*
 results/metrics/*
 !results/figures/.gitkeep
 !results/metrics/.gitkeep
+
+weights/*
+!weights/.gitkeep
 
 *.log
 logs/
