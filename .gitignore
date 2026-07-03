@@ -28,9 +28,7 @@ ENV/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-data/raw/
-data/processed/
-data/timeseries/
+
 *.mp4
 *.avi
 *.mov
@@ -44,9 +42,6 @@ METR-LA/
 *.pth
 *.onnx
 *.weights
-runs/
-weights/
-checkpoints/
 *.ckpt
 
 results/figures/*
