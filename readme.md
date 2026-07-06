@@ -2,9 +2,9 @@
 
 ## MSc Artificial Intelligence Dissertation Project — Queen Mary University of London (QMUL)
 
-Student: Charlize Low Wing Yue
-Supervisor: Antonino Masaracchia
-Programme: MSc Data Science and Artificial Intelligence, 2025–26
+- Student: Charlize Low Wing Yue
+- Supervisor: Antonino Masaracchia
+- Programme: MSc Data Science and Artificial Intelligence, 2025–26
 
 ### Project Aims:
 The aim of this project is to design and develop an AI-based traffic monitoring and prediction system capable of analysing traffic camera data to estimate traffic density and predict potential traffic congestion.
@@ -13,7 +13,7 @@ Traffic congestion is a major problem in urban environments, as the congestion o
 vehicles causes delays, increased fuel consumption and environmental pollution.
 Traditional traffic monitoring systems rely on sensors that are embedded in roads or manual observation, which turns out to be costly and even so, is limited in its coverage.
 
-With the recent advancements of artificial intelligence, computer vision and machine learning can be leveraged to provide automated traffic monitoring solutions. This project aims to utilise computer vision and machine learning techniques to automatically detect vehicles from traffic camera footage, generate traffic density data, and apply predictive models to forecast future traffic conditions. The resulting system could contribute to the development of intelligent transportation systems and smart city infrastructure by enabling early detection of traffic congestion and improved traffic management.
+With the recent advancements of artificial intelligence, computer vision and machine learning, this project aims to utilise computer vision and machine learning techniques to automatically detect vehicles from traffic camera footage and generate traffic density data, and apply predictive models in hopes to forecast future traffic conditions. The resulting system could contribute to the development of intelligent transportation systems and smart city infrastructure by enabling early detection of traffic congestion and improved traffic management.
 
 The project will ultilise publicly available datasets such as the CityFlow Dataset as the primary dataset for both training and testing models that are best suited for traffic prediction.
 
