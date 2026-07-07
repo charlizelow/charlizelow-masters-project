@@ -2,50 +2,27 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
 
 # Virtual environments
 venv/
 traffic_env/
 env/
-ENV/
 .venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb_checkpoints
 
-# Raw video / dataset formats
+# Raw video formats
 *.mp4
 *.avi
-*.mov
-*.mkv
-CityFlow/
-METR-LA/
-*.h5
-*.hdf5
 
-# Model weights / checkpoints
+# Model checkpoints (models/, and yolov8n.pt wherever it's downloaded to)
 *.pt
 *.pth
+*.pkl
 *.onnx
-*.weights
 *.ckpt
 
 # data/raw: full CityFlow download, never tracked
@@ -63,22 +40,13 @@ data/processed/*
 !data/processed/.gitkeep
 !data/processed/*.csv
 
-# results: ignore generated figures/metrics
+# results/figures: generated comparison charts
 results/figures/*
-results/metrics/*
 !results/figures/.gitkeep
-!results/metrics/.gitkeep
-
-# weights: ignore checkpoint files
-weights/*
-!weights/.gitkeep
 
 # logs
 *.log
 logs/
-wandb/
-tensorboard/
-runs/
 
 # OS / editor junk
 .DS_Store
@@ -89,12 +57,12 @@ desktop.ini
 *.swp
 *.swo
 
-# secrets 
+# secrets
 .env
 .env.local
 *.key
 
-# Office temp files 
+# Office temp files
 ~$*.docx
 ~$*.pptx
 *.tmp

@@ -1,9 +1,6 @@
-Listed below are the necessary packages/libraries for this project
-
 # Deep learning
 torch
 torchvision
-torchaudio
 
 # Vehicle detection
 ultralytics
