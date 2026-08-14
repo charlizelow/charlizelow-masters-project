@@ -1,0 +1,5 @@
+model_name,accuracy
+linear_regression,0.805699481865285
+lstm,0.8756476683937824
+tcn,0.8860103626943006
+tcn_lstm_hybrid,0.8264248704663213
