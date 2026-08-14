@@ -23,3 +23,13 @@ The project will ultilise publicly available datasets such as the CityFlow Datas
 5. Develop and implement the machine learning models to predict future traffic density and congestion.
 6. Evaluate system performance using testing data from the CityFlow Dataset.
 7. Evaluate the effectiveness of AI-based traffic monitoring systems.
+
+## Setup
+### Project Dataset
+The dataset used in this project is specifically the: CityFlow AI City Challenge 2022 (AIC22) Track1 Dataset. This dataset can be downloaded from the following link: https://drive.google.com/file/d/13wNJpS_Oaoe-7y5Dzexg_Ol7bKu1OWuC/view  (named AICity22_Track1_MTMC_Tracking.zip)
+
+### Project Recreation
+1. Clone the repository and move it into your project folder.
+2. Download the CityFlow Dataset and extract the zipped folder.
+3. Move the extracted zipped folder into the project folder under data/raw.
+4. Make sure you have the required packages (and respective versions), which is listed under the requirements.txt
