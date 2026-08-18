@@ -33,3 +33,17 @@ The dataset used in this project is specifically the: CityFlow AI City Challenge
 2. Download the CityFlow Dataset and extract the zipped folder.
 3. Move the extracted zipped folder into the project folder under data/raw.
 4. Make sure you have the required packages (and respective versions), which is listed under the requirements.txt
+
+### Code to Recreate Project
+#### 1. clone
+git clone https://github.com/charlizelow/charlizelow-masters-project.git
+cd charlizelow-masters-project
+
+#### 2. create and activate a virtual environment
+python -m venv masters
+masters\Scripts\activate          # Windows
+# source masters/bin/activate     # macOS / Linux
+
+#### 3. install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt

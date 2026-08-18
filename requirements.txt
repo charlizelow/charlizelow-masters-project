@@ -19,3 +19,6 @@ python-dateutil==2.9.0.post0
 DateTime==6.0
 pytz==2026.2
 PyYAML==6.0.3
+
+# CPU wheels install by default. For CUDA, install torch first from
+# https://download.pytorch.org/whl/cu121 then run this file.
